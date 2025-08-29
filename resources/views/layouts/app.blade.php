@@ -45,7 +45,7 @@ body {
 </div>
 
 <footer class="bg-dark text-white text-center py-2">
-    <p class="mt-3">&copy; {{ date('Y') }} SMA 1. All Rights Reserved.</p>
+    <p class="mt-3">&copy; {{ date('Y') }} SMAN 1. All Rights Reserved.</p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
