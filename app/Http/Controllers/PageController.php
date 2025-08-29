@@ -10,9 +10,7 @@ use App\Models\News;
 class PageController extends Controller
 {
     public function home() {
-        $activities = Activity::latest()->take(3)->get();
-        $news = News::latest()->take(3)->get();
-        return view('home', compact('activities', 'news'));
+        return view('home');
     }
 
     public function about() {
